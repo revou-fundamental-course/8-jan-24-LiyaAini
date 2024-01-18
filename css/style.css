@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+}
+header h1{
+    background-color: #7B66FF;
+    color: aliceblue;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace ;
+    letter-spacing: -1px;
+}
+header h3{
+    margin-top: 50px;
+}
+header p{
+    font-size: small;
+    margin-bottom: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-gap:2px;
+    grid-template-rows: 30px 30px;
+}
+header button{
+    width: 100%;
+    background-color: #7B66FF;
+    border: 2px;
+    border-radius: 5px;
+}
+main{
+    text-align: center;
+    border: 2px solid #C5FFF8;
+    background-color: #C5FFF8;
+    
+}
+main p{
+    text-align: justify;
+}
+main button{
+    width: 100px;
+    height: 30px;
+    background-color: #7B66FF;
+    border: 2px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+main input{
+    height: 30px;
+    margin-top: 15px;
+}

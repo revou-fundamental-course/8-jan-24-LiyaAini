@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" href="css/style.css">
+    <title> Katik kalkulator matematik</title>
+   </head>
+   <body>
+    <header>
+        <h1>Katik kalkulator matematik</h1>
+        <h3>Welcome to Katik</h3>
+        <p>Hai Sobat, Selamat datang di Katik :D</p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        <div class="grid-container">
+            <button>Persegi</button>
+            <button>Persegi Panjang</button>
+        </div>
+    </header>
+    <main class="inner-box">
+        <h4>Rumus Keliling dan Luas Persegi</h4>
+        <img src="https://berita.99.co/wp-content/uploads/2021/12/nama-nama-bangun-datar-lengkap-Persegi.jpg" alt="Persegi" width="70%">
+        <p>Rumus luas dan keleling persegi yaitu :</p>
+        <h5 style="font-weight: bold;"> K = 4 X S <br> L = S x S</h5>
+        <p>Dimana :<br>L = Luas <br> K = Keliling<br> S = Sisi</p>
+        <input id="sisi" type="number" name="display" placeholder="masukkan nilai sisi">
+        <div>
+            <input id="hasilLuas" type="text" name="hasilLuas">
+            <button type="button" onclick="hasilLuas()"> Hasil Luas</button>
+        </div>
+        <div>
+            <input id="hasilKeliling" type="text" name="hasilKeliling">
+            <button type="button" onclick="hasilKeliling()"> Hasil Keliling</button>
+        </div>
+        <button type="button" onclick="reset()"> Reset</button>
+    </main>
+    <script src="js/script.js">
+    </script>
+   </body> 
+</html>
